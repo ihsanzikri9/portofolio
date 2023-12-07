@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="sans.css">
+        <title>Pendaftaran Anggota HMPS</title>
+        <style>
+            body{
+    background-color: chocolate;
+    color:black;
+    width: 100%;
+    text-align:left;
+   font-size: x-large;
+   font-family: 'Times New Roman', Times, serif;
+            }
+   </style>
+    </head>
+    <body>
+        <fieldset>
+        <p><h1>Pendaftaran Anggota HMPS </h1>
+
+            <h3>NAMA</h3>
+                    <input type="text" name="nama" class="form-control" placeholder="Name">
+            <h3>NIM</h3>
+                    <input type="text" name="NIM" class="form-control" placeholder="NIM">
+            <h3>Jenis Kelamin:</h3>
+            <input type="radio" name="jk" value="Laki-laki"> Laki-laki
+            <br>
+            <input type="radio" name="jk" value="Perempuan"> Perempuan
+            <h3>Divisi</h3>
+            <select class="form-control" name="divisi">
+                <option>Akademik</option>
+                <option value="Sekretariat">Sekretariat</option>
+                <option value="Pengembangan Sumber Daya Mahasiswa">Sumber Daya Mahasiswa</option>
+                <option value="Kewirausahaan">Kewirausahaan</option>
+                <option value="Agama">Agama</option>
+                <option value="Minat & Bakat">Minat & Bakat</option>
+            </select>
+            <h3>Email</h3>
+            <input type="email" name="email" class="form-control" placeholder="example@gmail.com">
+            <h3>Nomor Handphone</h3>
+            <input type="text" name="no_hp" class="form-control" placeholder="+62.............">
+            <h3>Uraian Diri</h3>
+            <textarea class="form-control" name="uraian_diri" placeholder="Type Your Message" rows="6"></textarea>
+        <p>
+            <button type="submit" name="submit" class="btn btn-primary">Daftar</button>
+        </p>
+        <p>©Padang 2023</p> 
+    </body>
+    </html>
